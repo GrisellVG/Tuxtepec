@@ -134,20 +134,6 @@ table .bajo {
     font-size: 28px;
 }
 
-#banner a {
-    display: block;
-    width: 100px;
-    color: #fff;
-    text-decoration: none;
-    padding: 7px;
-    margin-top: 10px;
-    border: 3px solid #fff;
-}
-
-#banner a:hover {
-    background: rgba(51,51,51,0.5);
-}
-
 @media (min-width:480px) {
     #banner h2 {
         font-size: 40px;
@@ -189,11 +175,11 @@ table .bajo {
     justify-content: center;
 }
 
-.info-pet {
+.info-tux {
     margin: 20px;
 }
 
-.info-pet img {
+.info-tux img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
@@ -201,13 +187,13 @@ table .bajo {
 }
 
 @media (min-width:480px) {
-    .info-pet {
+    .info-tux {
         width: 40%;
     }
 }
 
 @media (min-width:1024px) {
-    .info-pet {
+    .info-tux {
         width: auto;
     }
 }
