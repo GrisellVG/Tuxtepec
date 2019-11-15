@@ -31,7 +31,7 @@ header
     width: 98%;
     margin: auto;
 }
-header .contenedor 
+header .contenedor
 {
     display: table;
 }
@@ -44,11 +44,11 @@ section
     width: 100%;
     margin-bottom: 30px;
 }
-#bienvenidos 
+#bienvenidos
 {
     text-align: center;
 }
-footer .contenedor 
+footer .contenedor
 {
     display: flex;
     flex-wrap: wrap;
@@ -89,7 +89,7 @@ left: 0;
 width: 100% !important;
 height: 100% !important;
 }
-@media (min-width:768px) { 
+@media (min-width:768px) {
     .sociales {
         width: auto;
     }
@@ -128,25 +128,25 @@ height: 100% !important;
     #banner h2 {
         font-size: 40px;
     }
-    
+
     #banner a {
         margin-top: 25px;
     }
 }
 
-@media (min-width:768px) { 
+@media (min-width:768px) {
     #banner {
         height: 300px;
         overflow: hidden;
     }
-    
+
     #banner img {
         height: auto;
         margin-top: -100px;
     }
 }
 
-@media (min-width:1024px) { 
+@media (min-width:1024px) {
     #banner img {
         margin-top: -400px;
     }
@@ -196,12 +196,12 @@ height: 100% !important;
         float: right;
         display: flex;
     }
-    
+
     .menu a {
         border: none;
     }
-    
-    header label { 
+
+    header label {
         display: none;
     }
 }
