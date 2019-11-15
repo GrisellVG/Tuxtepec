@@ -78,7 +78,7 @@ table .bajo {
 }
 .google-maps {
 position: relative;
-padding-bottom: 75%; // This is the aspect ratio
+padding-bottom: 75%;
 height: 0;
 overflow: hidden;
 }
@@ -93,37 +93,14 @@ height: 100% !important;
     .sociales {
         width: auto;
     }
-    
     footer .contenedor {
         justify-content: space-between;
     }
 }
-
-
 @media (min-width:1024px) {
     .contenedor {
         width: 1000px;
     }
-}
-
-
-#blog h3, h4 {
-    text-align: center;
-}
-
-#blog .contenedor{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-#blog article {
-    margin: 15px;
-}
-
-#blog img {
-    width: 100%;
-    max-width: 280px;
 }
 #banner {
     margin-top: 100px;
@@ -171,7 +148,7 @@ height: 100% !important;
 
 @media (min-width:1024px) { 
     #banner img {
-        margin-top: -200px;
+        margin-top: -400px;
     }
 }
 
